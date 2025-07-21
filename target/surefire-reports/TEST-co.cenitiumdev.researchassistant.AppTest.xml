@@ -4,7 +4,7 @@
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\eeras\IdeaProjects\research-assistant\target\test-classes;C:\Users\eeras\IdeaProjects\research-assistant\target\classes;C:\Users\eeras\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;C:\Users\eeras\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\eeras\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\eeras\IdeaProjects\research-assistant\target\test-classes;C:\Users\eeras\IdeaProjects\research-assistant\target\classes;C:\Users\eeras\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;C:\Users\eeras\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\eeras\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\pdfbox\3.0.2\pdfbox-3.0.2.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.2\pdfbox-io-3.0.2.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\fontbox\3.0.2\fontbox-3.0.2.jar;C:\Users\eeras\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\eeras\AppData\Local\Temp\surefire660002321256157169\surefirebooter-20250721134317445_3.jar C:\Users\eeras\AppData\Local\Temp\surefire660002321256157169 2025-07-21T13-43-17_259-jvmRun1 surefire-20250721134317445_1tmp surefire_0-20250721134317445_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\eeras\AppData\Local\Temp\surefire15216002513089793219\surefirebooter-20250721144529071_3.jar C:\Users\eeras\AppData\Local\Temp\surefire15216002513089793219 2025-07-21T14-45-28_916-jvmRun1 surefire-20250721144529071_1tmp surefire_0-20250721144529071_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\eeras\IdeaProjects\research-assistant\target\test-classes;C:\Users\eeras\IdeaProjects\research-assistant\target\classes;C:\Users\eeras\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;C:\Users\eeras\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\eeras\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\eeras\IdeaProjects\research-assistant\target\test-classes;C:\Users\eeras\IdeaProjects\research-assistant\target\classes;C:\Users\eeras\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;C:\Users\eeras\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\eeras\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\pdfbox\3.0.2\pdfbox-3.0.2.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.2\pdfbox-io-3.0.2.jar;C:\Users\eeras\.m2\repository\org\apache\pdfbox\fontbox\3.0.2\fontbox-3.0.2.jar;C:\Users\eeras\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\eeras"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\eeras\AppData\Local\Temp\surefire660002321256157169\surefirebooter-20250721134317445_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eeras\AppData\Local\Temp\surefire15216002513089793219\surefirebooter-20250721144529071_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-2724"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="co.cenitiumdev.researchassistant.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="co.cenitiumdev.researchassistant.AppTest" time="0.003"/>
 </testsuite>

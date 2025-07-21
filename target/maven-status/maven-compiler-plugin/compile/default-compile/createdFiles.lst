@@ -1,4 +1,6 @@
 META-INF\native-image\picocli-generated\co.cenitiumdev.researchassistant\research-assistant\reflect-config.json
+co\cenitiumdev\researchassistant\cli\App.class
 META-INF\native-image\picocli-generated\co.cenitiumdev.researchassistant\research-assistant\resource-config.json
-co\cenitiumdev\researchassistant\App.class
 META-INF\native-image\picocli-generated\co.cenitiumdev.researchassistant\research-assistant\proxy-config.json
+co\cenitiumdev\researchassistant\cli\ExtractTextCommand.class
+co\cenitiumdev\researchassistant\service\PdfReaderService.class

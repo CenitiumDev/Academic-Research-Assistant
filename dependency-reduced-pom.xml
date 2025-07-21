@@ -34,7 +34,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>co.cenitiumdev.researchassistant.App</mainClass>
+                  <mainClass>co.cenitiumdev.researchassistant.cli.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>

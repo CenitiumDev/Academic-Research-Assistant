@@ -1,4 +1,4 @@
-package co.cenitiumdev.researchassistant;
+package co.cenitiumdev.researchassistant.cli;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -8,13 +8,16 @@ import java.util.concurrent.Callable;
         name = "assistant",
         version = "Asistente de Investigación v1.0",
         description = "Una herramienta CLI para analizar documentos académicos con IA.",
-        mixinStandardHelpOptions = true
+        mixinStandardHelpOptions = true,
+        subcommands = {
+                ExtractTextCommand.class
+        }
 )
 public class App implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        System.out.println("✅ Asistente de Investigación listo. Usa --help para ver los comandos.");
+        CommandLine.usage(this, System.out);
         return 0;
     }
 
